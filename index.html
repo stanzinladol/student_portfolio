@@ -1,0 +1,564 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff7f1">
+  <meta name="description" content="Portfolio of Stanzin Lhadol, a computer science student interested in software development, data science and machine learning.">
+
+  <title>Stanzin Lhadol | Developer & ML Enthusiast</title>
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐱%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+
+<div class="progress" id="progress"></div>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a class="brand" href="#home">🐾 stanzin</a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#internship">Internship</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-cta">Say meow</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO SECTION -->
+  <section class="hero container" id="home">
+
+    <div class="hero-copy">
+      <p class="pill">
+        <span class="status-dot"></span>
+        Open to learning and opportunities 🐾
+      </p>
+
+      <h1>
+        Hi, I'm Stanzin Lhadol.
+        I build things with code, one curious step at a time.
+      </h1>
+
+      <p class="roles">
+        I'm a <strong id="typed"></strong>
+        <span class="caret"></span>
+      </p>
+
+      <p class="hero-intro">
+        Computer science student into software development,
+        data science and machine learning.
+        I turn ideas into useful projects and learn by building.
+        Move your mouse: the cat is watching.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">See my projects</a>
+        <a class="button secondary" href="#contact">Get in touch</a>
+      </div>
+
+      <div class="quick-facts">
+        <span>📍 India</span>
+        <span>💻 Developer in progress</span>
+        <span>🐟 Fuelled by curiosity</span>
+      </div>
+    </div>
+
+    <!-- ANIMATED CAT -->
+    <div class="hero-art">
+
+      <div class="paw-walk">
+        <span>🐾</span>
+        <span>🐾</span>
+        <span>🐾</span>
+        <span>🐾</span>
+        <span>🐾</span>
+      </div>
+
+      <svg class="cat" id="cat" viewBox="0 0 320 300">
+
+        <path class="tail"
+          d="M236 238 C300 238 308 160 270 140"
+          fill="none" stroke="#F28C28"
+          stroke-width="22" stroke-linecap="round"/>
+
+        <ellipse cx="160" cy="236" rx="86" ry="52" fill="#F28C28"/>
+        <ellipse cx="160" cy="250" rx="44" ry="36" fill="#FFE9CF"/>
+
+        <ellipse cx="116" cy="282" rx="22" ry="12" fill="#FFE9CF"/>
+        <ellipse cx="204" cy="282" rx="22" ry="12" fill="#FFE9CF"/>
+
+        <g class="ear ear-l">
+          <path d="M82 96 L74 30 L132 66 Z" fill="#F28C28"/>
+          <path d="M92 82 L88 52 L116 68 Z" fill="#F7A8B8"/>
+        </g>
+
+        <g class="ear ear-r">
+          <path d="M238 96 L246 30 L188 66 Z" fill="#F28C28"/>
+          <path d="M228 82 L232 52 L204 68 Z" fill="#F7A8B8"/>
+        </g>
+
+        <ellipse cx="160" cy="132" rx="94" ry="82" fill="#F28C28"/>
+
+        <path d="M160 52 v26 M140 56 l5 20 M180 56 l-5 20"
+          stroke="#C96A0E" stroke-width="7" stroke-linecap="round"/>
+
+        <ellipse cx="160" cy="166" rx="42" ry="30" fill="#FFE9CF"/>
+
+        <g class="eye">
+          <circle cx="120" cy="124" r="22" fill="#fff"/>
+          <circle class="pupil" cx="120" cy="124" r="11" fill="#1d1b2e"/>
+        </g>
+
+        <g class="eye">
+          <circle cx="200" cy="124" r="22" fill="#fff"/>
+          <circle class="pupil" cx="200" cy="124" r="11" fill="#1d1b2e"/>
+        </g>
+
+        <path d="M150 150 h20 l-10 12 Z" fill="#F7A8B8"/>
+
+        <path d="M160 162 v8 M160 170 q-10 10 -20 2 M160 170 q10 10 20 2"
+          fill="none" stroke="#1d1b2e"
+          stroke-width="3.5" stroke-linecap="round"/>
+
+        <path class="whiskers"
+          d="M104 160 L58 150 M104 168 L56 172 M216 160 L262 150 M216 168 L264 172"
+          stroke="#1d1b2e" stroke-width="3"
+          stroke-linecap="round"/>
+
+      </svg>
+
+      <div class="laptop">
+        <code>print("meow, world")</code>
+      </div>
+
+      <div class="floating-chip chip-one">⚡ Problem solving</div>
+      <div class="floating-chip chip-two">🧠 Python + ML</div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section band" id="about">
+    <div class="container two-col">
+
+      <div>
+        <h2>A little about me</h2>
+        <p class="paws">🐾 🐾 🐾</p>
+      </div>
+
+      <div class="about-copy">
+        <p>
+          I'm a student building a strong foundation in programming
+          and computer science. I like exploring how technology can
+          solve real-world problems, especially through Python,
+          data analysis and machine learning.
+        </p>
+
+        <p>
+          So far I've worked on academic and personal projects
+          involving prediction models, generative AI and interactive apps.
+          I'm always looking for ways to improve my skills,
+          collaborate and build something meaningful.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section container" id="skills">
+    <h2>What I'm working with</h2>
+
+    <div class="skill-grid">
+
+      <article class="skill-card c1">
+        <div class="skill-icon">⌘</div>
+        <h3>Programming</h3>
+        <p>Python, C++, JavaScript</p>
+      </article>
+
+      <article class="skill-card c2">
+        <div class="skill-icon">▤</div>
+        <h3>Web & Tools</h3>
+        <p>HTML, CSS, Node.js, Git, GitHub</p>
+      </article>
+
+      <article class="skill-card c3">
+        <div class="skill-icon">◈</div>
+        <h3>Data & ML</h3>
+        <p>Pandas, NumPy, scikit-learn, Streamlit</p>
+      </article>
+
+      <article class="skill-card c4">
+        <div class="skill-icon">◎</div>
+        <h3>Foundations</h3>
+        <p>DSA, OOP, DBMS, SQL</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- LEARNING JOURNEY -->
+  <section class="section band" id="internship">
+    <div class="container two-col">
+
+      <div>
+        <h2>My learning journey</h2>
+        <p class="paws">🐾 ✦ 🐾</p>
+      </div>
+
+      <div class="about-copy">
+        <p>
+          I'm growing my skills through hands-on projects in Python,
+          machine learning, data analysis and web development.
+        </p>
+
+        <p>
+          I'm open to internships, collaborations and opportunities
+          where I can learn from a team and contribute with curiosity.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="section container" id="certificates">
+
+    <div class="section-heading">
+      <h2>Certificates</h2>
+      <a class="text-link"
+        href="https://www.linkedin.com/in/stanzin-lhadol-aa6a1b385/details/certifications/"
+        target="_blank" rel="noreferrer">
+        See all on LinkedIn ↗
+      </a>
+    </div>
+
+    <p class="section-sub">
+      Courses and credentials I've completed.
+    </p>
+
+    <div class="cert-grid">
+
+      <article class="cert-card certificate-feature">
+
+        <a class="certificate-image-link"
+          href="azure-ai-fundamentals.png"
+          target="_blank" rel="noreferrer">
+
+          <img class="certificate-image"
+            src="azure-ai-fundamentals.png"
+            alt="Microsoft Azure AI Fundamentals certificate">
+        </a>
+
+        <div class="certificate-details">
+          <div class="cert-badge">☁️</div>
+          <p class="cert-issuer">Microsoft</p>
+
+          <h3>Microsoft Certified: Azure AI Fundamentals</h3>
+
+          <p class="cert-date">Issued March 13, 2026</p>
+
+          <a class="text-link"
+            href="https://learn.microsoft.com/en-us/credentials/"
+            target="_blank" rel="noreferrer">
+            Microsoft credentials ↗
+          </a>
+        </div>
+
+      </article>
+
+      <article class="cert-card certificate-feature">
+
+        <a class="certificate-image-link"
+          href="cpp-programming-internship.png"
+          target="_blank" rel="noreferrer">
+
+          <img class="certificate-image"
+            src="cpp-programming-internship.png"
+            alt="C++ Programming Internship certificate">
+        </a>
+
+        <div class="certificate-details">
+          <div class="cert-badge">💻</div>
+          <p class="cert-issuer">Thiranex</p>
+
+          <h3>C++ Programming Internship</h3>
+
+          <p class="cert-date">June 13 – July 12, 2026</p>
+
+          <p class="certificate-description">
+            Certificate of Achievement
+          </p>
+        </div>
+
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section band" id="projects">
+
+    <div class="container">
+
+      <div class="section-heading">
+        <h2>Things I've built</h2>
+        <span class="project-count">5 featured projects</span>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-visual visual-blue">
+            <span class="visual-symbol">🏠</span>
+          </div>
+
+          <div class="project-body">
+            <p class="project-type">Machine learning</p>
+            <h3>House Price Prediction</h3>
+
+            <p>
+              Explores housing data and predicts property prices
+              using regression models and feature engineering.
+            </p>
+
+            <div class="tags">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>Scikit-learn</span>
+            </div>
+
+            <a class="text-link"
+              href="https://github.com/stanzinladol/housePrice"
+              target="_blank" rel="noreferrer">
+              View on GitHub ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-violet">
+            <span class="visual-symbol">🚗</span>
+          </div>
+
+          <div class="project-body">
+            <p class="project-type">Web app + ML</p>
+            <h3>Car Price Prediction</h3>
+
+            <p>
+              An interactive Streamlit app that uses a trained model
+              to estimate car prices from vehicle features.
+            </p>
+
+            <div class="tags">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>ML</span>
+            </div>
+
+            <a class="text-link"
+              href="https://github.com/stanzinladol/CAR-price"
+              target="_blank" rel="noreferrer">
+              View on GitHub ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-green">
+            <span class="visual-symbol">❤️</span>
+          </div>
+
+          <div class="project-body">
+            <p class="project-type">Data science</p>
+            <h3>Heart Disease Prediction</h3>
+
+            <p>
+              A classification project that uses health-related
+              data and ML techniques to predict risk categories.
+            </p>
+
+            <div class="tags">
+              <span>Python</span>
+              <span>Data analysis</span>
+              <span>ML</span>
+            </div>
+
+            <a class="text-link"
+              href="https://github.com/stanzinladol/heart-disease"
+              target="_blank" rel="noreferrer">
+              View on GitHub ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-pink">
+            <span class="visual-symbol sparkle">✨</span>
+          </div>
+
+          <div class="project-body">
+            <p class="project-type">Generative AI</p>
+            <h3>Generative AI Project</h3>
+
+            <p>
+              An exploration of generative AI: building and
+              experimenting with models that create new content.
+            </p>
+
+            <div class="tags">
+              <span>Python</span>
+              <span>Generative AI</span>
+            </div>
+
+            <a class="text-link"
+              href="https://github.com/stanzinladol/generative-ai-project"
+              target="_blank" rel="noreferrer">
+              View on GitHub ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-gold">
+            <span class="visual-symbol dice">🎲</span>
+          </div>
+
+          <div class="project-body">
+            <p class="project-type">Web game</p>
+            <h3>Dice Game</h3>
+
+            <p>
+              A simple browser game built with HTML,
+              where you roll the dice and see who wins.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <a class="text-link"
+              href="https://github.com/stanzinladol/DiceGame"
+              target="_blank" rel="noreferrer">
+              View on GitHub ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card more-card">
+          <div class="project-body">
+            <p class="paws">🐾</p>
+            <h3>There's more</h3>
+
+            <p>
+              Web practice work and other experiments
+              live on my GitHub profile.
+            </p>
+
+            <a class="text-link"
+              href="https://github.com/stanzinladol"
+              target="_blank" rel="noreferrer">
+              All repositories ↗
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section container contact-section" id="contact">
+
+    <div class="contact-panel">
+
+      <div>
+        <h2>Let's make something great</h2>
+
+        <p class="contact-copy">
+          I'm happy to connect about projects, learning
+          opportunities or collaboration. No scratching, I promise.
+        </p>
+      </div>
+
+      <div class="contact-links">
+
+        <a href="mailto:stanzinthiksaysogor@gmail.com"
+          class="contact-link">
+          <span>✉</span>
+          <div>
+            <small>Email</small>
+            <strong>stanzinthiksaysogor@gmail.com</strong>
+          </div>
+          <b>↗</b>
+        </a>
+
+        <a href="https://github.com/stanzinladol"
+          target="_blank" rel="noreferrer"
+          class="contact-link">
+          <span>⌘</span>
+          <div>
+            <small>GitHub</small>
+            <strong>github.com/stanzinladol</strong>
+          </div>
+          <b>↗</b>
+        </a>
+
+        <a href="https://www.linkedin.com/in/stanzin-lhadol-aa6a1b385"
+          target="_blank" rel="noreferrer"
+          class="contact-link">
+          <span>in</span>
+          <div>
+            <small>LinkedIn</small>
+            <strong>linkedin.com/in/stanzin-lhadol</strong>
+          </div>
+          <b>↗</b>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <a class="brand" href="#home">🐾 stanzin</a>
+
+    <p>
+      Designed and built with curiosity (and a cat).
+      © <span id="year"></span>
+    </p>
+
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+>
